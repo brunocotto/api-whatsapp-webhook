@@ -8,7 +8,7 @@ import {
 import { ConfigService } from '@nestjs/config';
 
 @Controller('/webhooks')
-export class CreateDataWebHookController {
+export class GetDataWebHookController {
   private readonly verifyToken: string;
 
   constructor(private readonly configService: ConfigService) {
