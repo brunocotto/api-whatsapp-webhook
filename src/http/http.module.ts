@@ -4,6 +4,6 @@ import { CreateDataWebHookController } from './controllers/create-data-wehbook.c
 
 @Module({
   imports: [DatabaseModule],
-  controllers: [CreateDataWebHookController],
+  controllers: [CreateDataWebHookController, CreateDataWebHookController],
 })
 export class HttpModule {}
